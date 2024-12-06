@@ -215,4 +215,49 @@ body{
 
 .footer{
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.footer h4{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.footer nav{
+    margin: 50px 0;
+}
+
+.footer nav ul{
+    display: flex;
+}
+
+.footer nav ul li a{
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.footer nav ul li a:hover{
+    font-weight: 700;
+    color: white;
+}
+
+.footer .social i{
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.footer .social a:hover{
+    color: white;
+}
+
+.footer .social a{
+    margin: 20px;
 }
